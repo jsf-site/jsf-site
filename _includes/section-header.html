@@ -1,0 +1,13 @@
+<div class="mod modSectionHeader {{include.class}}">
+  <div class="special-title centered-text" style="">
+    <h2 class="{{include.class}}" style="color: {{include.color}};">{{ include.title }}</h2>
+  </div>
+  {% if include.tagline %}
+    <h3 class='centered-text {{include.class}}' style='font-weight: bold; color: {{include.color}};'>{{include.tagline}}</h3>
+  {% endif %}
+  {% if include.edit %}
+    <a href="{{ site.github.repository_url }}/edit/{{ site.branch }}/{{ page.path }}">
+      <h5 class="centered-text" style="color: {{include.color}};">Edit on GitHub</h5>
+    </a>
+  {% endif %}
+</div>

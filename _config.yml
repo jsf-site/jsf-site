@@ -1,3 +1,10 @@
+# Installed Gems
+plugins: [
+  jekyll-sitemap,
+  jekyll-mentions,
+  jekyll-paginate
+]
+
 # Site settings
 title: Java Server Faces
 email: info@javaserverfaces.com

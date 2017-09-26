@@ -15,6 +15,7 @@ url: 'http://dev.javaserverfaces.com'
 # url: 'https://jsf-site.github.io/jsf-site/'
 twitter_username: ''
 github_username: jsf-site
+branch: 'master'
 
 # Build settings
 markdown: kramdown
